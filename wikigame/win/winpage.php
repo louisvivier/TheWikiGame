@@ -21,7 +21,7 @@ foreach($ActualGameScores as $ActualGameScore);
 $startword = normalizetextwinpage($ActualGameScore['startword'], $charset='utf-8');
 $endword = normalizetextwinpage($ActualGameScore['endword'], $charset='utf-8');
 $samescores = FindASameScore($ActualGameScore['startword'],$ActualGameScore['endword'],'10');
-$linktoshare = 'https://geniusgames.fr/wikigame/win/'.$id.'';
+$linktoshare = 'https://genius-corp.fr/wikigame/win/'.$id.'';
 $winmessagetoshare = 'J\'ai fait '.$ActualGameScore['clics']." clic".singularorplural($ActualGameScore['clics'])." ". 'pour aller de '.$ActualGameScore['startword'].' à '.$ActualGameScore['endword'].' sur le #WikiGame ! Tente de faire mieux que moi.'
 ?>
 
@@ -30,10 +30,10 @@ $winmessagetoshare = 'J\'ai fait '.$ActualGameScore['clics']." clic".singularorp
 	<head>
 		<meta charset="UTF-8">
 		<title>WikiGame</title>
-    <link rel="stylesheet" type="text/css" href="https://geniusgames.fr/wikigame/css/wiki.css">
-		<link rel="stylesheet" type="text/css" href="https://geniusgames.fr/wikigame/css/cadre.css">
-		<link rel="stylesheet" type="text/css" href="https://geniusgames.fr/wikigame/css/home_page.css">
-		<link rel="icon" type="image/png" href="https://geniusgames.fr/wikigame/images/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="https://genius-corp.fr/wikigame/css/wiki.css">
+		<link rel="stylesheet" type="text/css" href="https://genius-corp.fr/wikigame/css/cadre.css">
+		<link rel="stylesheet" type="text/css" href="https://genius-corp.fr/wikigame/css/home_page.css">
+		<link rel="icon" type="image/png" href="https://genius-corp.fr/wikigame/images/favicon.png" />
 	</head>
 	<body>
 		<div id="fb-root"></div>

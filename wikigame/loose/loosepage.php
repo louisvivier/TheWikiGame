@@ -9,10 +9,10 @@ require '..//model.php';
 	<head>
 		<meta charset="UTF-8">
 		<title>WikiGame</title>
-    <link rel="stylesheet" type="text/css" href="https://geniusgames.fr/wikigame/css/wiki.css">
-		<link rel="stylesheet" type="text/css" href="https://geniusgames.fr/wikigame/css/cadre.css">
-		<link rel="stylesheet" type="text/css" href="https://geniusgames.fr/wikigame/css/home_page.css">
-		<link rel="icon" type="image/png" href="https://geniusgames.fr/wikigame/images/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="https://genius-corp.fr/wikigame/css/wiki.css">
+		<link rel="stylesheet" type="text/css" href="https://genius-corp.fr/wikigame/css/cadre.css">
+		<link rel="stylesheet" type="text/css" href="https://genius-corp.fr/wikigame/css/home_page.css">
+		<link rel="icon" type="image/png" href="https://genius-corp.fr/wikigame/images/favicon.png" />
 	</head>
 	<body>
 		<header>

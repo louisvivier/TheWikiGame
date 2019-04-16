@@ -244,7 +244,7 @@ function FullScoreDisplay($arrays){
 
 //creation d'un lien de partage username
 function LinkUsrShare ($username){
-  return 'https://geniusgames.fr/wikigame/usr/'.$username;
+  return 'https://genius-corp.fr/wikigame/usr/'.$username;
 }
 
 //creation du lien cliquable sur la page
@@ -254,7 +254,7 @@ function IntegrationLinkUsrShare ($username){
 
 //creation d'un lien de partage des startword et endword
 function LinkWordsShare ($startword,$endword){
-  return 'https://geniusgames.fr/wikigame/'.$startword.'/'.$endword;
+  return 'https://genius-corp.fr/wikigame/'.$startword.'/'.$endword;
 }
 
 //Creation du lien pour faire la meme partie version endword

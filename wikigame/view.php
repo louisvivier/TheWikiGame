@@ -3,14 +3,14 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>WikiGame</title>
-		<link rel="stylesheet" type="text/css" href="https://geniusgames.fr/wikigame/css/wiki.css">
-		<link rel="stylesheet" type="text/css" href="https://geniusgames.fr/wikigame/css/cadre.css">
-		<link rel="stylesheet" type="text/css" href="https://geniusgames.fr/wikigame/css/home_page.css">
-		<link rel="icon" type="image/png" href="https://geniusgames.fr/wikigame/images/favicon.png" />
+		<link rel="stylesheet" type="text/css" href="https://genius-corp.fr/wikigame/css/wiki.css">
+		<link rel="stylesheet" type="text/css" href="https://genius-corp.fr/wikigame/css/cadre.css">
+		<link rel="stylesheet" type="text/css" href="https://genius-corp.fr/wikigame/css/home_page.css">
+		<link rel="icon" type="image/png" href="https://genius-corp.fr/wikigame/images/favicon.png" />
 	</head>
 	<body>
 		<header>
-			<img class="image" src="https://geniusgames.fr/wikigame/images/Wikigame.png" alt="Wikigame"  />
+			<img class="image" src="https://genius-corp.fr/wikigame/images/Wikigame.png" alt="Wikigame"  />
 		</header>
 		<div class="page">
 			<div class="content">
@@ -77,7 +77,7 @@
 					</div>
 					<div class="chrono">
 						<h4>Ton temps</h4>
-						<img class="image2" src="https://geniusgames.fr/wikigame/images/chrono.gif" alt="chrono"  />
+						<img class="image2" src="https://genius-corp.fr/wikigame/images/chrono.gif" alt="chrono"  />
 						<?php
 							if ($articleclick == 1){
 							  echo $_SESSION['X']->h. 'h ';
